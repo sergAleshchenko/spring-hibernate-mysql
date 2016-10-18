@@ -1,5 +1,9 @@
 package org.krams.tutorial.controller;
 
+import java.util.List;
+
+import javax.annotation.Resource;
+
 import org.apache.log4j.Logger;
 import org.krams.tutorial.domain.Person;
 import org.krams.tutorial.service.PersonService;
@@ -9,9 +13,6 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-
-import javax.annotation.Resource;
-import java.util.List;
 
 
 /**
