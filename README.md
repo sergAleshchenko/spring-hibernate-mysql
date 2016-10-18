@@ -4,11 +4,14 @@
 
 1) Создаем БД с такими параметрами (файл spring.properties):
 
-# database properties
 app.jdbc.driverClassName=com.mysql.jdbc.Driver
+
 app.jdbc.url=jdbc:mysql://localhost:3306/Provider
+
 app.jdbc.username=root
+
 app.jdbc.password=root
+
 
 2) Таблица создается автоматически, вручную ничего создавать не нужно.
 
