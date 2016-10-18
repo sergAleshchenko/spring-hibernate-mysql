@@ -1,4 +1,19 @@
-Для запуска приложения требуется Maven. Вы просто заходите в директорию проекта и набираете mvn tomcat:run 
+Заготовка для приложения.
 
+Приложение не реализовано полностью, это только эскиз. 
 
-Пример взят из блога http://krams915.blogspot.ru 
+1) Создаем БД с такими параметрами (файл spring.properties):
+
+# database properties
+app.jdbc.driverClassName=com.mysql.jdbc.Driver
+app.jdbc.url=jdbc:mysql://localhost:3306/Provider
+app.jdbc.username=root
+app.jdbc.password=root
+
+2) Таблица создается автоматически, вручную ничего создавать не нужно.
+
+3) Приложение создавалось в Eclipse Neon Release (4.6.0). Для запуска заходим в Run -> Run Configurations -> 
+Добавляем Maven Build в левой колонке (см. рисунок MavenBuild.png в корне проекта)
+
+4) Иногда перед запуском надо обновить папки проекта (нажать Ctrl+A -> F5 в дереве проекта) или сделать Maven update project 
+(правой кнопкой по папке проекта -> Maven -> Update Project...)
